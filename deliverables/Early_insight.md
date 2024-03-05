@@ -1,4 +1,9 @@
+# Election Narratives: Early Insight
+
+
+
 # Collect and Pre-process the Data: 
+
 The data is collected from an mbox file which contains emails. The Python mailbox library is used to read the mbox file. Each email is processed to extract details such as 'From', 'Delivered-To', 'Subject', 'Date', 'Labels', and the content of the email in both plain text and HTML formats. The subject line is decoded from the "Quoted-Printable" format to a readable format using the email.header's decode_header function. The processed emails are then saved as a JSON file.
 # preliminary analysis of the data: 
 The analysis involves counting the frequency of certain political words and figures in the email content. The words and figures are predefined in lists. The email content is tokenized and the frequency of each word or figure is counted. The results are visualized using bar plots and pie charts.  The analysis also includes counting the number of words, links, and images in the HTML content and raw text of the emails. The counts are visualized using a pie chart.
