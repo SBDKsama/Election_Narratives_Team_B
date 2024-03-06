@@ -8,7 +8,13 @@ The data is collected from an mbox file which contains emails. The Python mailbo
 
 ### Preliminary Analysis 
 
-The analysis involves counting the frequency of certain political words and figures in the email content. The words and figures are predefined in lists. The email content is tokenized, and the frequency of each word or figure is counted. The results are visualized using bar plots and pie charts. The analysis also includes counting the number of words, links, and images in the HTML content and raw text of the emails. The counts are visualized using a pie chart. 
+The analysis involves counting the frequency of certain political words and figures in the email content. The words and figures are predefined in lists based on our political knowledge, and they are shown below. 
+```python
+political_words = ['democrats', 'republicans', 'senate', 'gop', 'fundraising', 'resources', 'vote', 'majority', 'election', 'nevada',  'goal', 'campaign', 'grassroots', 'pac', 'missouri', 'senator', 'contribute', 'donation', 'gun', 'rights']
+
+political_figures = ['trump', 'biden', 'obama', 'clinton', 'pelosi', 'mcconnell', 'sanders', 'harris', 'pence', 'romney', 'bush', 'cruz', 'warren', 'soros', 'koch', 'soros', 'koch', 'putin', 'xi', 'kim', 'merkel', 'macron', 'trudeau', 'modi', 'abe', 'erdogan']
+```
+The email content is tokenized, and the frequency of each word or figure is counted. The results are visualized using bar plots and pie charts. The analysis also includes counting the number of words, links, and images in the HTML content and raw text of the emails. The counts are visualized using a pie chart. 
 
 ### Findings 
 
