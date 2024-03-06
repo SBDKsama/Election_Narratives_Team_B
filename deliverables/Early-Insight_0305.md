@@ -32,7 +32,7 @@ The pie chart and bar chart present data on the frequency of specific political 
 
 The charts depict the frequency of reference to various political figures in the emails. The bar chart shows that Trump is the most frequently mentioned, followed by Biden and Obama. There is a significant drop in the remaining figures, such as Pelosi, McConnell, Sanders, Pence, Bush, Cruz, and Warren. The pie chart confirms the dominance of Trump and Biden in the conversation, collectively accounting for over 59% of all mentions. Obama holds a substantial share as well, with around 27.8%. Other figures have significantly smaller shares, suggesting that the election narratives are heavily concentrated around the top figures.
 
-- Information proportion\
+- Information proportion
 ![word_link_image_counts_pie_chart](../result/word_link_image_counts_pie_chart.png)
 
 The pie chart details the proportions of words, links, and images in a dataset. Words overwhelmingly dominate the content, comprising 97.9% of the elements counted. Links and images are a minor part of the content, with links slightly more prevalent at 1.2% compared to images at 0.9%. This indicates a text-heavy composition with relatively few multimedia elements or hyperlinks. 
