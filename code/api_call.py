@@ -1,4 +1,5 @@
 import re
+from datetime import datetime
 
 from googleapiclient.discovery import build
 from google_auth_oauthlib.flow import InstalledAppFlow
@@ -74,7 +75,8 @@ def get_message(service, user_id, msg_id):
         date = [header['value'] for header in headers if header['name'] == 'Date'][0]  # Extract the date
         labels = message.get('labelIds', [])  # Extract the labels
         from_email = [header['value'] for header in headers if header['name'] == 'From'][0]  # Extract the from email
-        delivered_to = [header['value'] for header in headers if header['name'] == 'Delivered-To'][0]  # Extract the delivered_to email
+        delivered_to = [header['value'] for header in headers if header['name'] == 'Delivered-To'][
+            0]  # Extract the delivered_to email
         parts = payload.get("parts")
         body = ''
         if parts:
@@ -85,7 +87,8 @@ def get_message(service, user_id, msg_id):
         else:
             data = payload['body']['data']
             body = base64.urlsafe_b64decode(data.encode('ASCII')).decode('utf-8')
-        return {'from': from_email, 'delivered_to': delivered_to, 'subject': subject, 'date': date, 'labels': labels, 'content_plain': clean_email_content(body)}
+        return {'from': from_email, 'delivered_to': delivered_to, 'subject': subject, 'date': date, 'labels': labels,
+                'content_plain': clean_email_content(body)}
     except Exception as e:
         print(f'An error occurred: {e}')
         return None
@@ -148,6 +151,43 @@ def get_all_emails_and_save_as_json(service, user_id='me'):
         json.dump(all_emails, file, indent=4)
 
 
+def get_emails_after_date(service, date, user_id='me'):
+    # Convert the date to the required format
+    date_str = datetime.strftime(date, "%Y/%m/%d")
+
+    page_token = None
+    all_emails = []  # Create an empty list to store all email details
+
+    # Initialize the progress bar without a total
+    progress_bar = tqdm(total=None, desc="Processing emails")
+
+    while True:
+        results = service.users().messages().list(userId=user_id, pageToken=page_token, labelIds=['INBOX'], q=f'after:{date_str}').execute()
+        messages = results.get('messages', [])
+
+        if not messages:
+            print("No messages found.")
+            break
+        else:
+            for message in messages:
+                email_info = get_message(service, user_id, message['id'])
+                if email_info:
+                    all_emails.append(email_info)  # Append the email details to the list
+                # Update the progress bar
+                progress_bar.update(1)
+
+        page_token = results.get('nextPageToken')
+        if not page_token:
+            break
+
+    # Close the progress bar
+    progress_bar.close()
+
+    # Save all email details to a single JSON file
+    with open('../data/emails_extracted_part.json', 'w', encoding='utf-8') as file:
+        json.dump(all_emails, file, indent=4)
+
+
 if __name__ == '__main__':
     # Get the Gmail API service
     service = get_gmail_service()
@@ -155,3 +195,4 @@ if __name__ == '__main__':
     # Fetch the most recent 5 emails and save them as JSON
     # get_recent_emails_and_save_as_json(service)
     get_all_emails_and_save_as_json(service)
+    # get_emails_after_date(service, datetime(2024, 3, 20))
