@@ -1,4 +1,3 @@
-import re
 from datetime import datetime
 
 from googleapiclient.discovery import build
@@ -9,6 +8,7 @@ import os.path
 import pickle
 import base64
 import json
+from util import contentUtil
 
 # Use pip install --upgrade google-auth-oauthlib google-auth-httplib2 google-api-python-client
 # to install the required packages
@@ -35,36 +35,6 @@ def get_gmail_service():
     return service
 
 
-# Remove URLs, non-ASCII characters, multiple spaces, newlines, and carriage returns
-def clean_email_content(content):
-    if (content is None or content == '' or len(content) == 0):
-        return content
-    # Remove URLs
-    url_pattern = re.compile(r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+')
-    content = url_pattern.sub('', content)
-
-    # Remove non-ASCII characters
-    unicode_pattern = re.compile(r'[^\x00-\x7F]+')
-    content = unicode_pattern.sub('', content)
-
-    # Remove multiple spaces
-    multiple_spaces_pattern = re.compile(r'\s\s+')
-    content = multiple_spaces_pattern.sub(' ', content)
-
-    # Remove empty square brackets
-    empty_brackets_pattern = re.compile(r'\[\s*\]')
-    content = empty_brackets_pattern.sub('', content)
-
-    # Remove newlines and carriage returns
-    content = content.replace('\r', '').replace('\n', '')
-
-    # Remove consecutive symbols e.g ||| !!!!! -----
-    consecutive_symbol_pattern = re.compile(r'(\W)\1{2,}')
-    content = consecutive_symbol_pattern.sub(r'\1', content)
-
-    return content.strip()
-
-
 # Get the message from the Gmail API
 def get_message(service, user_id, msg_id):
     try:
@@ -87,8 +57,8 @@ def get_message(service, user_id, msg_id):
         else:
             data = payload['body']['data']
             body = base64.urlsafe_b64decode(data.encode('ASCII')).decode('utf-8')
-        return {'from': from_email, 'delivered_to': delivered_to, 'subject': subject, 'date': date, 'labels': labels,
-                'content_plain': clean_email_content(body)}
+        return {'from': from_email, 'delivered_to': delivered_to, 'subject': contentUtil.clean(subject), 'date': date, 'labels': labels,
+                'content_plain': contentUtil.clean(body)}
     except Exception as e:
         print(f'An error occurred: {e}')
         return None
