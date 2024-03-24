@@ -1,9 +1,6 @@
 import requests
-import json
-import re
 import requests
 from bs4 import BeautifulSoup
-from IPython.display import HTML, Image
 
 def queryFec(candidateName):
     response = requests.get(
@@ -33,7 +30,9 @@ def queryFec(candidateName):
         state_info = entity_types[1].text.strip()
         
         # The third span contains the political party
-        party = entity_types[2].text.strip()
+        party = entity_types[2].text.strip().split(' ')[0]
     return state_info, party
 
+# Example usage
 print('Jacky Rosen', queryFec('Jacky Rosen'))
+    
