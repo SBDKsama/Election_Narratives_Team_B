@@ -1,293 +1,478 @@
 [
-  {
-    "First": "Jacky",
-    "Middle": "",
-    "Last": "Rosen",
-    "Emails": ["info@action.rosenfornevada.com"]
-  },
-  {
-    "First": "Tammy",
-    "Middle": "",
-    "Last": "Baldwin",
-    "Emails": ["info@e.tammybaldwin.com"]
-  },
-  {
-    "First": "Sherrod",
-    "Middle": "",
-    "Last": "Brown",
-    "Emails": ["info@sherrodbrown.com"]
-  },
-  {
-    "First": "kirsten",
-    "Middle": "",
-    "Last": "Gillibrand",
-    "Emails": ["kg@kirstengillibrand.com"]
-  },
-  {
-    "First": "Lucas",
-    "Middle": "",
-    "Last": "Kunce",
-    "Emails": ["team@lucasformo.com", "team@lucasformo.com"]
-  },
-  {
-    "First": "Barbara",
-    "Middle": "",
-    "Last": "Lee",
-    "Emails": ["info@barbaraleeforcongress.org"]
-  },
-  {
-    "First": "Chris",
-    "Middle": "",
-    "Last": "Murphy",
-    "Emails": ["info@e.chrismurphy.com"]
-  },
-  {
-    "First": "Ruben",
-    "Middle": "",
-    "Last": "Gallego",
-    "Emails": ["info@e.gallegoforarizona.com"]
-  },
-  {
-    "First": "Eddie",
-    "Middle": "",
-    "Last": "Garcia",
-    "Emails": [
-      "ron@garciaforvirginiacommittee.ccsend.com",
-      "info-eddiegarciava.com@shared1.ccsend.com"
-    ]
-  },
-  {
-    "First": "Bob",
-    "Middle": "",
-    "Last": "Casey",
-    "Emails": ["info@email.bobcasey.com"]
-  },
-  {
-    "First": "Josh",
-    "Middle": "",
-    "Last": "Hawley",
-    "Emails": ["josh@hawleyformo.com"]
-  },
-  {
-    "First": "Hung",
-    "Middle": "",
-    "Last": "Cao",
-    "Emails": ["info@hungcaoforva.com"]
-  },
-  {
-    "First": "Jim",
-    "Middle": "",
-    "Last": "Marchant",
-    "Emails": ["today@secureandprosper.com"]
-  },
-  {
-    "First": "Tammy",
-    "Middle": "",
-    "Last": "Murphy",
-    "Emails": [
-      "tammy@tammymurphyforsenate.com",
-      "info@tammymurphyforsenate.com"
-    ]
-  },
-  {
-    "First": "Kevin",
-    "Middle": "",
-    "Last": "Cramer",
-    "Emails": ["info@voteforcramer.com"]
-  },
-  {
-    "First": "Colin",
-    "Middle": "",
-    "Last": "Allred",
-    "Emails": ["info@colinallred.com", "alejandro@colinallred.com"]
-  },
-  {
-    "First": "Gloria",
-    "Middle": "",
-    "Last": "Johnson",
-    "Emails": ["info@votegloriajohnson.com"]
-  },
-  {
-    "First": "Kari",
-    "Middle": "",
-    "Last": "Lake",
-    "Emails": ["info@anedot.com", "info@kariforus.com"]
-  },
-  {
-    "First": "Stacey",
-    "Middle": "",
-    "Last": "Klein",
-    "Emails": [
-      "stacey@staceyforwisconsin.ccsend.com",
-      "staceyforwisconsin-gmail.com@shared1.ccsend.com"
-    ]
-  },
-  {
-    "First": "Elizabeth",
-    "Middle": "",
-    "Last": "Warren",
-    "Emails": ["info@e.elizabethwarren.com"]
-  },
-  {
-    "First": "Jon",
-    "Middle": "",
-    "Last": "Tester",
-    "Emails": ["info@e.jontester.com"]
-  },
-  {
-    "First": "Jared",
-    "Middle": "",
-    "Last": "Young",
-    "Emails": ["info@votejaredyoung.com"]
-  },
-  {
-    "First": "Jonathan",
-    "Middle": "",
-    "Last": "Reiss",
-    "Emails": ["jonathan@reissforussenate.com"]
-  },
-  {
-    "First": "Dan",
-    "Middle": "",
-    "Last": "Osborn",
-    "Emails": ["info@osbornforsenate.com"]
-  },
-  {
-    "First": "Raul",
-    "Middle": "",
-    "Last": "Garcia",
-    "Emails": ["info@garciaforwa.com"]
-  },
-  {
-    "First": "Patrick",
-    "Middle": "D.",
-    "Last": "Munro",
-    "Emails": ["mdllc@outlook.com"]
-  },
-  {
-    "First": "Robert",
-    "Middle": "",
-    "Last": "Newcomb",
-    "Emails": ["no-reply@campaign-preferences.com"]
-  },
-  {
-    "First": "Josh",
-    "Middle": "",
-    "Last": "Randall",
-    "Emails": ["joshforsenate2024@gmail.com"]
-  },
-  {
-    "First": "Amy",
-    "Middle": "",
-    "Last": "Klobuchar",
-    "Emails": ["info@amyklobuchar.com"]
-  },
-  {
-    "First": "Brian",
-    "Middle": "",
-    "Last": "Frydenborg",
-    "Emails": ["donotreply@wordpress.com"]
-  },
-  {
-    "First": "Jon",
-    "Middle": "",
-    "Last": "Hamm",
-    "Emails": ["reply@e.adamschiff.com"]
-  },
-  {
-    "First": "John",
-    "Middle": "Glen",
-    "Last": "Weaver",
-    "Emails": ["jgw@weaverforsenate.com"]
-  },
-  {
-    "First": "Dave",
-    "Middle": "",
-    "Last": "McCormick",
-    "Emails": ["contact@email.davemccormickpa.com"]
-  },
-  {
-    "First": "Roland",
-    "Middle": "",
-    "Last": "Gutierrez",
-    "Emails": ["info@rolandfortexas.com"]
-  },
-  {
-    "First": "Angela",
-    "Middle": "",
-    "Last": "Alsobrooks",
-    "Emails": ["info@e.angelaalsobrooks.com"]
-  },
-  {
-    "First": "Katrina",
-    "Middle": "",
-    "Last": "Christiansen",
-    "Emails": ["info@katrinaforussenate.com"]
-  },
-  {
-    "First": "David",
-    "Middle": "",
-    "Last": "Trone",
-    "Emails": ["info@davidtrone.com"]
-  },
-  {
-    "First": "Martin",
-    "Middle": "",
-    "Last": "Heinrich",
-    "Emails": ["info@martinheinrich.com"]
-  },
-  {
-    "First": "Bernie",
-    "Middle": "",
-    "Last": "Sanders",
-    "Emails": ["info@berniesanders.com"]
-  },
-  {
-    "First": "Jonathan",
-    "Middle": "",
-    "Last": "Emord",
-    "Emails": ["info@emordforva.com"]
-  },
-  {
-    "First": "Lisa",
-    "Middle": "Blunt",
-    "Last": "Rochester",
-    "Emails": ["info@lisabluntrochester.com"]
-  },
-  {
-    "First": "Katie",
-    "Middle": "",
-    "Last": "Porter",
-    "Emails": ["info@katieporter.com"]
-  },
-  {
-    "First": "Angus",
-    "Middle": "",
-    "Last": "King",
-    "Emails": ["info@angusformaine.com"]
-  },
-  {
-    "First": "Sheldon",
-    "Middle": "",
-    "Last": "Whitehouse",
-    "Emails": ["info@whitehouseforsenate.com"]
-  },
-  {
-    "First": "Eric",
-    "Middle": "",
-    "Last": "Hansen",
-    "Emails": ["info@voteerichansen.com"]
-  },
-  {
-    "First": "Maria",
-    "Middle": "",
-    "Last": "Cantwell",
-    "Emails": ["info@cantwell.com"]
-  },
-  {
-    "First": "Trent",
-    "Middle": "",
-    "Last": "Staggs",
-    "Emails": ["no-reply@trentstaggs.com"]
-  }
+    {
+        "First": "Jacky",
+        "Middle": "",
+        "Last": "Rosen",
+        "Emails": [
+            "info@action.rosenfornevada.com"
+        ],
+        "state": "NV",
+        "party": "DEMOCRATIC"
+    },
+    {
+        "First": "Tammy",
+        "Middle": "",
+        "Last": "Baldwin",
+        "Emails": [
+            "info@e.tammybaldwin.com"
+        ],
+        "state": "WI",
+        "party": "DEMOCRATIC"
+    },
+    {
+        "First": "Sherrod",
+        "Middle": "",
+        "Last": "Brown",
+        "Emails": [
+            "info@sherrodbrown.com"
+        ],
+        "state": "OH",
+        "party": "DEMOCRATIC"
+    },
+    {
+        "First": "kirsten",
+        "Middle": "",
+        "Last": "Gillibrand",
+        "Emails": [
+            "kg@kirstengillibrand.com"
+        ],
+        "state": "NY",
+        "party": "DEMOCRATIC"
+    },
+    {
+        "First": "Lucas",
+        "Middle": "",
+        "Last": "Kunce",
+        "Emails": [
+            "team@lucasformo.com",
+            "team@lucasformo.com"
+        ],
+        "state": "MO",
+        "party": "DEMOCRATIC"
+    },
+    {
+        "First": "Barbara",
+        "Middle": "",
+        "Last": "Lee",
+        "Emails": [
+            "info@barbaraleeforcongress.org"
+        ],
+        "state": "CA",
+        "party": "DEMOCRATIC"
+    },
+    {
+        "First": "Chris",
+        "Middle": "",
+        "Last": "Murphy",
+        "Emails": [
+            "info@e.chrismurphy.com"
+        ],
+        "state": "WI",
+        "party": "DEMOCRATIC"
+    },
+    {
+        "First": "Ruben",
+        "Middle": "",
+        "Last": "Gallego",
+        "Emails": [
+            "info@e.gallegoforarizona.com"
+        ],
+        "state": "AZ",
+        "party": "DEMOCRATIC"
+    },
+    {
+        "First": "Eddie",
+        "Middle": "",
+        "Last": "Garcia",
+        "Emails": [
+            "ron@garciaforvirginiacommittee.ccsend.com",
+            "info-eddiegarciava.com@shared1.ccsend.com"
+        ],
+        "state": "unknown",
+        "party": "unknown"
+    },
+    {
+        "First": "Bob",
+        "Middle": "",
+        "Last": "Casey",
+        "Emails": [
+            "info@email.bobcasey.com"
+        ],
+        "state": "unknown",
+        "party": "unknown"
+    },
+    {
+        "First": "Josh",
+        "Middle": "",
+        "Last": "Hawley",
+        "Emails": [
+            "josh@hawleyformo.com"
+        ],
+        "state": "MO",
+        "party": "REPUBLICAN"
+    },
+    {
+        "First": "Hung",
+        "Middle": "",
+        "Last": "Cao",
+        "Emails": [
+            "info@hungcaoforva.com"
+        ],
+        "state": "VA",
+        "party": "REPUBLICAN"
+    },
+    {
+        "First": "Jim",
+        "Middle": "",
+        "Last": "Marchant",
+        "Emails": [
+            "today@secureandprosper.com"
+        ],
+        "state": "NV",
+        "party": "REPUBLICAN"
+    },
+    {
+        "First": "Tammy",
+        "Middle": "",
+        "Last": "Murphy",
+        "Emails": [
+            "tammy@tammymurphyforsenate.com",
+            "info@tammymurphyforsenate.com"
+        ],
+        "state": "NJ",
+        "party": "DEMOCRATIC"
+    },
+    {
+        "First": "Kevin",
+        "Middle": "",
+        "Last": "Cramer",
+        "Emails": [
+            "info@voteforcramer.com"
+        ],
+        "state": "ND",
+        "party": "REPUBLICAN"
+    },
+    {
+        "First": "Colin",
+        "Middle": "",
+        "Last": "Allred",
+        "Emails": [
+            "info@colinallred.com",
+            "alejandro@colinallred.com"
+        ],
+        "state": "TX",
+        "party": "DEMOCRATIC"
+    },
+    {
+        "First": "Gloria",
+        "Middle": "",
+        "Last": "Johnson",
+        "Emails": [
+            "info@votegloriajohnson.com"
+        ],
+        "state": "TN",
+        "party": "DEMOCRATIC"
+    },
+    {
+        "First": "Kari",
+        "Middle": "",
+        "Last": "Lake",
+        "Emails": [
+            "info@anedot.com",
+            "info@kariforus.com"
+        ],
+        "state": "AZ",
+        "party": "REPUBLICAN"
+    },
+    {
+        "First": "Stacey",
+        "Middle": "",
+        "Last": "Klein",
+        "Emails": [
+            "stacey@staceyforwisconsin.ccsend.com",
+            "staceyforwisconsin-gmail.com@shared1.ccsend.com"
+        ],
+        "state": "WI",
+        "party": "REPUBLICAN"
+    },
+    {
+        "First": "Elizabeth",
+        "Middle": "",
+        "Last": "Warren",
+        "Emails": [
+            "info@e.elizabethwarren.com"
+        ],
+        "state": "MA",
+        "party": "DEMOCRATIC"
+    },
+    {
+        "First": "Jon",
+        "Middle": "",
+        "Last": "Tester",
+        "Emails": [
+            "info@e.jontester.com"
+        ],
+        "state": "MT",
+        "party": "DEMOCRATIC"
+    },
+    {
+        "First": "Jared",
+        "Middle": "",
+        "Last": "Young",
+        "Emails": [
+            "info@votejaredyoung.com"
+        ],
+        "state": "MO",
+        "party": "INDEPENDENT"
+    },
+    {
+        "First": "Jonathan",
+        "Middle": "",
+        "Last": "Reiss",
+        "Emails": [
+            "jonathan@reissforussenate.com"
+        ],
+        "state": "CA",
+        "party": "REPUBLICAN"
+    },
+    {
+        "First": "Dan",
+        "Middle": "",
+        "Last": "Osborn",
+        "Emails": [
+            "info@osbornforsenate.com"
+        ],
+        "state": "NE",
+        "party": "INDEPENDENT"
+    },
+    {
+        "First": "Raul",
+        "Middle": "",
+        "Last": "Garcia",
+        "Emails": [
+            "info@garciaforwa.com"
+        ],
+        "state": "WA",
+        "party": "REPUBLICAN"
+    },
+    {
+        "First": "Patrick",
+        "Middle": "D.",
+        "Last": "Munro",
+        "Emails": [
+            "mdllc@outlook.com"
+        ],
+        "state": "MN",
+        "party": "REPUBLICAN"
+    },
+    {
+        "First": "Robert",
+        "Middle": "",
+        "Last": "Newcomb",
+        "Emails": [
+            "no-reply@campaign-preferences.com"
+        ],
+        "state": "UT",
+        "party": "INDEPENDENT"
+    },
+    {
+        "First": "Josh",
+        "Middle": "",
+        "Last": "Randall",
+        "Emails": [
+            "joshforsenate2024@gmail.com"
+        ],
+        "state": "UT",
+        "party": "REPUBLICAN"
+    },
+    {
+        "First": "Amy",
+        "Middle": "",
+        "Last": "Klobuchar",
+        "Emails": [
+            "info@amyklobuchar.com"
+        ],
+        "state": "MN",
+        "party": "DEMOCRATIC-FARMER-LABOR"
+    },
+    {
+        "First": "Brian",
+        "Middle": "",
+        "Last": "Frydenborg",
+        "Emails": [
+            "donotreply@wordpress.com"
+        ],
+        "state": "MD",
+        "party": "DEMOCRATIC"
+    },
+    {
+        "First": "Jon",
+        "Middle": "",
+        "Last": "Hamm",
+        "Emails": [
+            "reply@e.adamschiff.com"
+        ],
+        "state": "unknown",
+        "party": "unknown"
+    },
+    {
+        "First": "John",
+        "Middle": "Glen",
+        "Last": "Weaver",
+        "Emails": [
+            "jgw@weaverforsenate.com"
+        ],
+        "state": "NE",
+        "party": "REPUBLICAN"
+    },
+    {
+        "First": "Dave",
+        "Middle": "",
+        "Last": "McCormick",
+        "Emails": [
+            "contact@email.davemccormickpa.com"
+        ],
+        "state": "PA",
+        "party": "REPUBLICAN"
+    },
+    {
+        "First": "Roland",
+        "Middle": "",
+        "Last": "Gutierrez",
+        "Emails": [
+            "info@rolandfortexas.com"
+        ],
+        "state": "TX",
+        "party": "DEMOCRATIC"
+    },
+    {
+        "First": "Angela",
+        "Middle": "",
+        "Last": "Alsobrooks",
+        "Emails": [
+            "info@e.angelaalsobrooks.com"
+        ],
+        "state": "MD",
+        "party": "DEMOCRATIC"
+    },
+    {
+        "First": "Katrina",
+        "Middle": "",
+        "Last": "Christiansen",
+        "Emails": [
+            "info@katrinaforussenate.com"
+        ],
+        "state": "ND",
+        "party": "DEMOCRATIC"
+    },
+    {
+        "First": "David",
+        "Middle": "",
+        "Last": "Trone",
+        "Emails": [
+            "info@davidtrone.com"
+        ],
+        "state": "MD",
+        "party": "DEMOCRATIC"
+    },
+    {
+        "First": "Martin",
+        "Middle": "",
+        "Last": "Heinrich",
+        "Emails": [
+            "info@martinheinrich.com"
+        ],
+        "state": "NM",
+        "party": "DEMOCRATIC"
+    },
+    {
+        "First": "Bernie",
+        "Middle": "",
+        "Last": "Sanders",
+        "Emails": [
+            "info@berniesanders.com"
+        ],
+        "state": "VT",
+        "party": "INDEPENDENT"
+    },
+    {
+        "First": "Jonathan",
+        "Middle": "",
+        "Last": "Emord",
+        "Emails": [
+            "info@emordforva.com"
+        ],
+        "state": "VA",
+        "party": "REPUBLICAN"
+    },
+    {
+        "First": "Lisa",
+        "Middle": "Blunt",
+        "Last": "Rochester",
+        "Emails": [
+            "info@lisabluntrochester.com"
+        ],
+        "state": "DE",
+        "party": "DEMOCRATIC"
+    },
+    {
+        "First": "Katie",
+        "Middle": "",
+        "Last": "Porter",
+        "Emails": [
+            "info@katieporter.com"
+        ],
+        "state": "unknown",
+        "party": "unknown"
+    },
+    {
+        "First": "Angus",
+        "Middle": "",
+        "Last": "King",
+        "Emails": [
+            "info@angusformaine.com"
+        ],
+        "state": "ME",
+        "party": "INDEPENDENT"
+    },
+    {
+        "First": "Sheldon",
+        "Middle": "",
+        "Last": "Whitehouse",
+        "Emails": [
+            "info@whitehouseforsenate.com"
+        ],
+        "state": "RI",
+        "party": "DEMOCRATIC"
+    },
+    {
+        "First": "Eric",
+        "Middle": "",
+        "Last": "Hansen",
+        "Emails": [
+            "info@voteerichansen.com"
+        ],
+        "state": "DE",
+        "party": "REPUBLICAN"
+    },
+    {
+        "First": "Maria",
+        "Middle": "",
+        "Last": "Cantwell",
+        "Emails": [
+            "info@cantwell.com"
+        ],
+        "state": "WA",
+        "party": "DEMOCRATIC"
+    },
+    {
+        "First": "Trent",
+        "Middle": "",
+        "Last": "Staggs",
+        "Emails": [
+            "no-reply@trentstaggs.com"
+        ],
+        "state": "UT",
+        "party": "REPUBLICAN"
+    }
 ]
