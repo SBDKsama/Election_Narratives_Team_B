@@ -8,7 +8,7 @@ import os.path
 import pickle
 import base64
 import json
-from util import contentUtil
+from utils import contentUtil
 
 # Use pip install --upgrade google-auth-oauthlib google-auth-httplib2 google-api-python-client
 # to install the required packages
