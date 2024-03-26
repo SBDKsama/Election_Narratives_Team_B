@@ -57,8 +57,12 @@ def get_message(service, user_id, msg_id):
         else:
             data = payload['body']['data']
             body = base64.urlsafe_b64decode(data.encode('ASCII')).decode('utf-8')
-        return {'from': from_email, 'delivered_to': delivered_to, 'subject': contentUtil.clean(subject), 'date': date, 'labels': labels,
-                'content_plain': contentUtil.clean(body)}
+        subject_urls, clean_subject = contentUtil.clean(subject)
+        urls, clean_body = contentUtil.clean(body)
+        for url in subject_urls:
+            urls.append(url)
+        return {'from': from_email, 'delivered_to': delivered_to, 'subject': clean_subject, 'date': date, 'labels': labels,
+                'content_plain': clean_body, 'urls': urls}
     except Exception as e:
         print(f'An error occurred: {e}')
         return None
