@@ -2,7 +2,7 @@ from fecDatabaseUtil import queryFec
 import json
 
 def updateCandidateJson():
-    candidates_and_emails = 'data/Candidates_Emails.json'
+    candidates_and_emails = 'data/emails_extracted.json'
     with open(candidates_and_emails, 'r', encoding='utf-8') as email_book:
         candidate_email_dict = json.load(email_book)
 

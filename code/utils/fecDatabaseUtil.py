@@ -2,6 +2,7 @@ import requests
 import requests
 from bs4 import BeautifulSoup
 
+# This function is using to request the party and state by given the candidate's name through the website called www.fec.gov.
 def queryFec(candidateName):
     response = requests.get(
         'https://www.fec.gov/search/',
