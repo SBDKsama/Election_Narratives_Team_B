@@ -1,335 +1,576 @@
 [
-  {
-    "First": "Jacky",
-    "Middle": "",
-    "Last": "Rosen",
-    "Emails": ["info@action.rosenfornevada.com"]
-  },
-  {
-    "First": "Tammy",
-    "Middle": "",
-    "Last": "Baldwin",
-    "Emails": ["info@e.tammybaldwin.com"]
-  },
-  {
-    "First": "Sherrod",
-    "Middle": "",
-    "Last": "Brown",
-    "Emails": ["info@sherrodbrown.com"]
-  },
-  {
-    "First": "kirsten",
-    "Middle": "",
-    "Last": "Gillibrand",
-    "Emails": ["kg@kirstengillibrand.com"]
-  },
-  {
-    "First": "Lucas",
-    "Middle": "",
-    "Last": "Kunce",
-    "Emails": ["team@lucasformo.com", "team@lucasformo.com"]
-  },
-  {
-    "First": "Barbara",
-    "Middle": "",
-    "Last": "Lee",
-    "Emails": ["info@barbaraleeforcongress.org"]
-  },
-  {
-    "First": "Chris",
-    "Middle": "",
-    "Last": "Murphy",
-    "Emails": ["info@e.chrismurphy.com"]
-  },
-  {
-    "First": "Ruben",
-    "Middle": "",
-    "Last": "Gallego",
-    "Emails": ["info@e.gallegoforarizona.com"]
-  },
-  {
-    "First": "Eddie",
-    "Middle": "",
-    "Last": "Garcia",
-    "Emails": [
-      "ron@garciaforvirginiacommittee.ccsend.com",
-      "info-eddiegarciava.com@shared1.ccsend.com"
-    ]
-  },
-  {
-    "First": "Bob",
-    "Middle": "",
-    "Last": "Casey",
-    "Emails": ["info@email.bobcasey.com"]
-  },
-  {
-    "First": "Josh",
-    "Middle": "",
-    "Last": "Hawley",
-    "Emails": ["josh@hawleyformo.com"]
-  },
-  {
-    "First": "Hung",
-    "Middle": "",
-    "Last": "Cao",
-    "Emails": ["info@hungcaoforva.com"]
-  },
-  {
-    "First": "Jim",
-    "Middle": "",
-    "Last": "Marchant",
-    "Emails": ["today@secureandprosper.com"]
-  },
-  {
-    "First": "Tammy",
-    "Middle": "",
-    "Last": "Murphy",
-    "Emails": [
-      "tammy@tammymurphyforsenate.com",
-      "info@tammymurphyforsenate.com"
-    ]
-  },
-  {
-    "First": "Kevin",
-    "Middle": "",
-    "Last": "Cramer",
-    "Emails": ["info@voteforcramer.com"]
-  },
-  {
-    "First": "Colin",
-    "Middle": "",
-    "Last": "Allred",
-    "Emails": ["info@colinallred.com", "alejandro@colinallred.com"]
-  },
-  {
-    "First": "Gloria",
-    "Middle": "",
-    "Last": "Johnson",
-    "Emails": ["info@votegloriajohnson.com"]
-  },
-  {
-    "First": "Kari",
-    "Middle": "",
-    "Last": "Lake",
-    "Emails": ["info@anedot.com", "info@kariforus.com"]
-  },
-  {
-    "First": "Stacey",
-    "Middle": "",
-    "Last": "Klein",
-    "Emails": [
-      "stacey@staceyforwisconsin.ccsend.com",
-      "staceyforwisconsin-gmail.com@shared1.ccsend.com"
-    ]
-  },
-  {
-    "First": "Elizabeth",
-    "Middle": "",
-    "Last": "Warren",
-    "Emails": ["info@e.elizabethwarren.com"]
-  },
-  {
-    "First": "Jon",
-    "Middle": "",
-    "Last": "Tester",
-    "Emails": ["info@e.jontester.com"]
-  },
-  {
-    "First": "Jared",
-    "Middle": "",
-    "Last": "Young",
-    "Emails": ["info@votejaredyoung.com"]
-  },
-  {
-    "First": "Jonathan",
-    "Middle": "",
-    "Last": "Reiss",
-    "Emails": ["jonathan@reissforussenate.com"]
-  },
-  {
-    "First": "Dan",
-    "Middle": "",
-    "Last": "Osborn",
-    "Emails": ["info@osbornforsenate.com"]
-  },
-  {
-    "First": "Raul",
-    "Middle": "",
-    "Last": "Garcia",
-    "Emails": ["info@garciaforwa.com"]
-  },
-  {
-    "First": "Patrick",
-    "Middle": "D.",
-    "Last": "Munro",
-    "Emails": ["mdllc@outlook.com"]
-  },
-  {
-    "First": "Robert",
-    "Middle": "",
-    "Last": "Newcomb",
-    "Emails": ["no-reply@campaign-preferences.com"]
-  },
-  {
-    "First": "Josh",
-    "Middle": "",
-    "Last": "Randall",
-    "Emails": ["joshforsenate2024@gmail.com"]
-  },
-  {
-    "First": "Amy",
-    "Middle": "",
-    "Last": "Klobuchar",
-    "Emails": ["info@amyklobuchar.com"]
-  },
-  {
-    "First": "Brian",
-    "Middle": "",
-    "Last": "Frydenborg",
-    "Emails": ["donotreply@wordpress.com"]
-  },
-  {
-    "First": "Jon",
-    "Middle": "",
-    "Last": "Hamm",
-    "Emails": ["reply@e.adamschiff.com"]
-  },
-  {
-    "First": "John",
-    "Middle": "Glen",
-    "Last": "Weaver",
-    "Emails": ["jgw@weaverforsenate.com"]
-  },
-  {
-    "First": "Dave",
-    "Middle": "",
-    "Last": "McCormick",
-    "Emails": ["contact@email.davemccormickpa.com"]
-  },
-  {
-    "First": "Roland",
-    "Middle": "",
-    "Last": "Gutierrez",
-    "Emails": ["info@rolandfortexas.com"]
-  },
-  {
-    "First": "Angela",
-    "Middle": "",
-    "Last": "Alsobrooks",
-    "Emails": ["info@e.angelaalsobrooks.com"]
-  },
-  {
-    "First": "Katrina",
-    "Middle": "",
-    "Last": "Christiansen",
-    "Emails": ["info@katrinaforussenate.com"]
-  },
-  {
-    "First": "David",
-    "Middle": "",
-    "Last": "Trone",
-    "Emails": ["info@davidtrone.com"]
-  },
-  {
-    "First": "Martin",
-    "Middle": "",
-    "Last": "Heinrich",
-    "Emails": ["info@martinheinrich.com"]
-  },
-  {
-    "First": "Bernie",
-    "Middle": "",
-    "Last": "Sanders",
-    "Emails": ["info@berniesanders.com"]
-  },
-  {
-    "First": "Jonathan",
-    "Middle": "",
-    "Last": "Emord",
-    "Emails": ["info@emordforva.com"]
-  },
-  {
-    "First": "Lisa",
-    "Middle": "Blunt",
-    "Last": "Rochester",
-    "Emails": ["info@lisabluntrochester.com"]
-  },
-  {
-    "First": "Katie",
-    "Middle": "",
-    "Last": "Porter",
-    "Emails": ["info@katieporter.com"]
-  },
-  {
-    "First": "Angus",
-    "Middle": "",
-    "Last": "King",
-    "Emails": ["info@angusformaine.com"]
-  },
-  {
-    "First": "Sheldon",
-    "Middle": "",
-    "Last": "Whitehouse",
-    "Emails": ["info@whitehouseforsenate.com"]
-  },
-  {
-    "First": "Eric",
-    "Middle": "",
-    "Last": "Hansen",
-    "Emails": ["info@voteerichansen.com"]
-  },
-  {
-    "First": "Maria",
-    "Middle": "",
-    "Last": "Cantwell",
-    "Emails": ["info@cantwell.com"]
-  },
-  {
-    "First": "Trent",
-    "Middle": "",
-    "Last": "Staggs",
-    "Emails": ["no-reply@trentstaggs.com"]
-  },
-  {
-    "First": "Campaign",
-    "Middle": "",
-    "Last": "Preferences",
-    "Emails": ["no-reply@campaign-preferences.com"]
-  },
-  {
-    "First": "Secure",
-    "Middle": "&",
-    "Last": "Prosper",
-    "Emails": ["today@secureandprosper.com"]
-  },
-  {
-    "First": "Google",
-    "Middle": "",
-    "Last": "Community",
-    "Emails": ["googlecommunityteam-noreply@google.com"]
-  },
-  {
-    "First": "Google",
-    "Middle": "",
-    "Last": "",
-    "Emails": ["forwarding-noreply@google.com"]
-  },
-  {
-    "First": "Wordpress",
-    "Middle": "",
-    "Last": "",
-    "Emails": ["donotreply@wordpress.com"]
-  },
-  {
-    "First": "Wix",
-    "Middle": "",
-    "Last": "Site",
-    "Emails": ["no-reply@wixsiteautomations.com"]
-  },
-  {
-    "First": "Jenga",
-    "Middle": "",
-    "Last": "Smitch",
-    "Emails": ["jengabuiling90@gmail.com"]
-  }
+    {
+        "First": "Jacky",
+        "Middle": "",
+        "Last": "Rosen",
+        "Emails": [
+            "info@action.rosenfornevada.com"
+        ]
+    },
+    {
+        "First": "Tammy",
+        "Middle": "",
+        "Last": "Baldwin",
+        "Emails": [
+            "info@e.tammybaldwin.com"
+        ]
+    },
+    {
+        "First": "Sherrod",
+        "Middle": "",
+        "Last": "Brown",
+        "Emails": [
+            "info@sherrodbrown.com"
+        ]
+    },
+    {
+        "First": "kirsten",
+        "Middle": "",
+        "Last": "Gillibrand",
+        "Emails": [
+            "kg@kirstengillibrand.com"
+        ]
+    },
+    {
+        "First": "Lucas",
+        "Middle": "",
+        "Last": "Kunce",
+        "Emails": [
+            "team@lucasformo.com",
+            "team@lucasformo.com"
+        ]
+    },
+    {
+        "First": "Barbara",
+        "Middle": "",
+        "Last": "Lee",
+        "Emails": [
+            "info@barbaraleeforcongress.org"
+        ]
+    },
+    {
+        "First": "Chris",
+        "Middle": "",
+        "Last": "Murphy",
+        "Emails": [
+            "info@e.chrismurphy.com"
+        ]
+    },
+    {
+        "First": "Ruben",
+        "Middle": "",
+        "Last": "Gallego",
+        "Emails": [
+            "info@e.gallegoforarizona.com"
+        ]
+    },
+    {
+        "First": "Eddie",
+        "Middle": "",
+        "Last": "Garcia",
+        "Emails": [
+            "ron@garciaforvirginiacommittee.ccsend.com",
+            "info-eddiegarciava.com@shared1.ccsend.com"
+        ]
+    },
+    {
+        "First": "Bob",
+        "Middle": "",
+        "Last": "Casey",
+        "Emails": [
+            "info@email.bobcasey.com"
+        ]
+    },
+    {
+        "First": "Josh",
+        "Middle": "",
+        "Last": "Hawley",
+        "Emails": [
+            "josh@hawleyformo.com"
+        ]
+    },
+    {
+        "First": "Hung",
+        "Middle": "",
+        "Last": "Cao",
+        "Emails": [
+            "info@hungcaoforva.com"
+        ]
+    },
+    {
+        "First": "Jim",
+        "Middle": "",
+        "Last": "Marchant",
+        "Emails": [
+            "today@secureandprosper.com"
+        ]
+    },
+    {
+        "First": "Tammy",
+        "Middle": "",
+        "Last": "Murphy",
+        "Emails": [
+            "tammy@tammymurphyforsenate.com",
+            "info@tammymurphyforsenate.com"
+        ]
+    },
+    {
+        "First": "Kevin",
+        "Middle": "",
+        "Last": "Cramer",
+        "Emails": [
+            "info@voteforcramer.com"
+        ]
+    },
+    {
+        "First": "Colin",
+        "Middle": "",
+        "Last": "Allred",
+        "Emails": [
+            "info@colinallred.com",
+            "alejandro@colinallred.com"
+        ]
+    },
+    {
+        "First": "Gloria",
+        "Middle": "",
+        "Last": "Johnson",
+        "Emails": [
+            "info@votegloriajohnson.com"
+        ]
+    },
+    {
+        "First": "Kari",
+        "Middle": "",
+        "Last": "Lake",
+        "Emails": [
+            "info@anedot.com",
+            "info@kariforus.com"
+        ]
+    },
+    {
+        "First": "Stacey",
+        "Middle": "",
+        "Last": "Klein",
+        "Emails": [
+            "stacey@staceyforwisconsin.ccsend.com",
+            "staceyforwisconsin-gmail.com@shared1.ccsend.com"
+        ]
+    },
+    {
+        "First": "Elizabeth",
+        "Middle": "",
+        "Last": "Warren",
+        "Emails": [
+            "info@e.elizabethwarren.com"
+        ]
+    },
+    {
+        "First": "Jon",
+        "Middle": "",
+        "Last": "Tester",
+        "Emails": [
+            "info@e.jontester.com"
+        ]
+    },
+    {
+        "First": "Jared",
+        "Middle": "",
+        "Last": "Young",
+        "Emails": [
+            "info@votejaredyoung.com"
+        ]
+    },
+    {
+        "First": "Jonathan",
+        "Middle": "",
+        "Last": "Reiss",
+        "Emails": [
+            "jonathan@reissforussenate.com"
+        ]
+    },
+    {
+        "First": "Dan",
+        "Middle": "",
+        "Last": "Osborn",
+        "Emails": [
+            "info@osbornforsenate.com"
+        ]
+    },
+    {
+        "First": "Raul",
+        "Middle": "",
+        "Last": "Garcia",
+        "Emails": [
+            "info@garciaforwa.com"
+        ]
+    },
+    {
+        "First": "Patrick",
+        "Middle": "D.",
+        "Last": "Munro",
+        "Emails": [
+            "mdllc@outlook.com"
+        ]
+    },
+    {
+        "First": "Robert",
+        "Middle": "",
+        "Last": "Newcomb",
+        "Emails": [
+            "no-reply@campaign-preferences.com"
+        ]
+    },
+    {
+        "First": "Josh",
+        "Middle": "",
+        "Last": "Randall",
+        "Emails": [
+            "joshforsenate2024@gmail.com"
+        ]
+    },
+    {
+        "First": "Amy",
+        "Middle": "",
+        "Last": "Klobuchar",
+        "Emails": [
+            "info@amyklobuchar.com"
+        ]
+    },
+    {
+        "First": "Brian",
+        "Middle": "",
+        "Last": "Frydenborg",
+        "Emails": [
+            "donotreply@wordpress.com"
+        ]
+    },
+    {
+        "First": "Jon",
+        "Middle": "",
+        "Last": "Hamm",
+        "Emails": [
+            "reply@e.adamschiff.com"
+        ]
+    },
+    {
+        "First": "John",
+        "Middle": "Glen",
+        "Last": "Weaver",
+        "Emails": [
+            "jgw@weaverforsenate.com"
+        ]
+    },
+    {
+        "First": "Dave",
+        "Middle": "",
+        "Last": "McCormick",
+        "Emails": [
+            "contact@email.davemccormickpa.com"
+        ]
+    },
+    {
+        "First": "Roland",
+        "Middle": "",
+        "Last": "Gutierrez",
+        "Emails": [
+            "info@rolandfortexas.com"
+        ]
+    },
+    {
+        "First": "Angela",
+        "Middle": "",
+        "Last": "Alsobrooks",
+        "Emails": [
+            "info@e.angelaalsobrooks.com"
+        ]
+    },
+    {
+        "First": "Katrina",
+        "Middle": "",
+        "Last": "Christiansen",
+        "Emails": [
+            "info@katrinaforussenate.com"
+        ]
+    },
+    {
+        "First": "David",
+        "Middle": "",
+        "Last": "Trone",
+        "Emails": [
+            "info@davidtrone.com"
+        ]
+    },
+    {
+        "First": "Martin",
+        "Middle": "",
+        "Last": "Heinrich",
+        "Emails": [
+            "info@martinheinrich.com"
+        ]
+    },
+    {
+        "First": "Bernie",
+        "Middle": "",
+        "Last": "Sanders",
+        "Emails": [
+            "info@berniesanders.com"
+        ]
+    },
+    {
+        "First": "Jonathan",
+        "Middle": "",
+        "Last": "Emord",
+        "Emails": [
+            "info@emordforva.com"
+        ]
+    },
+    {
+        "First": "Lisa",
+        "Middle": "Blunt",
+        "Last": "Rochester",
+        "Emails": [
+            "info@lisabluntrochester.com"
+        ]
+    },
+    {
+        "First": "Katie",
+        "Middle": "",
+        "Last": "Porter",
+        "Emails": [
+            "info@katieporter.com"
+        ]
+    },
+    {
+        "First": "Angus",
+        "Middle": "",
+        "Last": "King",
+        "Emails": [
+            "info@angusformaine.com"
+        ]
+    },
+    {
+        "First": "Sheldon",
+        "Middle": "",
+        "Last": "Whitehouse",
+        "Emails": [
+            "info@whitehouseforsenate.com"
+        ]
+    },
+    {
+        "First": "Eric",
+        "Middle": "",
+        "Last": "Hansen",
+        "Emails": [
+            "info@voteerichansen.com"
+        ]
+    },
+    {
+        "First": "Maria",
+        "Middle": "",
+        "Last": "Cantwell",
+        "Emails": [
+            "info@cantwell.com"
+        ]
+    },
+    {
+        "First": "Trent",
+        "Middle": "",
+        "Last": "Staggs",
+        "Emails": [
+            "no-reply@trentstaggs.com"
+        ]
+    },
+    {
+        "First": "Campaign",
+        "Middle": "",
+        "Last": "Preferences",
+        "Emails": [
+            "no-reply@campaign-preferences.com"
+        ]
+    },
+    {
+        "First": "Secure",
+        "Middle": "&",
+        "Last": "Prosper",
+        "Emails": [
+            "today@secureandprosper.com"
+        ]
+    },
+    {
+        "First": "Google",
+        "Middle": "",
+        "Last": "Community",
+        "Emails": [
+            "googlecommunityteam-noreply@google.com"
+        ]
+    },
+    {
+        "First": "Google",
+        "Middle": "",
+        "Last": "",
+        "Emails": [
+            "forwarding-noreply@google.com"
+        ]
+    },
+    {
+        "First": "Wordpress",
+        "Middle": "",
+        "Last": "",
+        "Emails": [
+            "donotreply@wordpress.com"
+        ]
+    },
+    {
+        "First": "Wix",
+        "Middle": "",
+        "Last": "Site",
+        "Emails": [
+            "no-reply@wixsiteautomations.com"
+        ]
+    },
+    {
+        "First": "Jenga",
+        "Middle": "",
+        "Last": "Smitch",
+        "Emails": [
+            "jengabuiling90@gmail.com"
+        ]
+    },
+    {
+        "First": "Caroline",
+        "Middle": "",
+        "Last": "Gleich",
+        "Emails": [
+            "info@carolineforutah.com"
+        ]
+    },
+    {
+        "First": "Eddie",
+        "Middle": "",
+        "Last": "Garcia",
+        "Emails": [
+            "garcia@garciaforvirginiacommittee.ccsend.com"
+        ]
+    },
+    {
+        "First": "Glenn",
+        "Middle": "",
+        "Last": "Elliott",
+        "Emails": [
+            "info@elliottforwv.com"
+        ]
+    },
+    {
+        "First": "John",
+        "Middle": "",
+        "Last": "Curtis",
+        "Emails": [
+            "johncurtis@johncurtis.org"
+        ]
+    },
+    {
+        "First": "Robert",
+        "Middle": "",
+        "Last": "Newcomb",
+        "Emails": [
+            "senatornewcomb.gmail.com@vurxid.sqspmail.com"
+        ]
+    },
+    {
+        "First": "Reid",
+        "Middle": "",
+        "Last": "Rasner",
+        "Emails": [
+            "info@rasner4wy.com"
+        ]
+    },
+    {
+        "First": "Sam",
+        "Middle": "",
+        "Last": "Brown",
+        "Emails": [
+            "info@captainsambrown.com"
+        ]
+    },
+    {
+        "First": "Gwen",
+        "Middle": "",
+        "Last": "Hickman",
+        "Emails": [
+            "gwen@hickmanforsenate.com"
+        ]
+    },
+    {
+        "First": "Brady PAC",
+        "Middle": "",
+        "Last": "",
+        "Emails": [
+            "info@bradypac.org"
+        ]
+    },
+    {
+        "First": "Patricia",
+        "Middle": "",
+        "Last": "Morgan",
+        "Emails": [
+            "info@patriciamorgan.com"
+        ]
+    },
+    {
+        "First": "Colin",
+        "Middle": "",
+        "Last": "Allred",
+        "Emails": [
+            "michelle@colinallred.com"
+        ]
+    },
+    {
+        "First": "Chuck",
+        "Middle": "",
+        "Last": "Smith",
+        "Emails": [
+            "chucksmith@chucksmithva.com"
+        ]
+    },
+    {
+        "First": "Bernie",
+        "Middle": "",
+        "Last": "Moreno",
+        "Emails": [
+            "Colton@berniemoreno.com"
+        ]
+    },
+    {
+        "First": "Dan",
+        "Middle": "",
+        "Last": "Eubanks",
+        "Emails": [
+            "deubanks@substack.com"
+        ]
+    },
+    {
+        "First": "Brad",
+        "Middle": "",
+        "Last": "Wilson",
+        "Emails": [
+            "info@vote.electbradwilson.com"
+        ]
+    },
+    {
+        "First": "Google",
+        "Middle": "",
+        "Last": "Google",
+        "Emails": [
+            "no-reply@accounts.google.com"
+        ]
+    },
+    {
+        "First": "December",
+        "Middle": "",
+        "Last": "Harmon",
+        "Emails": [
+            "info@december2024.com"
+        ]
+    }
 ]
