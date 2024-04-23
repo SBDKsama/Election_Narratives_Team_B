@@ -9,9 +9,9 @@ class Gemini:
             shutil.copy('utils/gemini_key_example.py', 'utils/gemini_key.py')
             raise Exception('Please fill in the Gemini API key and secret in utils/gemini_key.py')
         import utils.gemini_key
-        if utils.gemini_key.key == 'FILL_YOUR_API_KEY_HERE':
+        if utils.gemini_key.gemini_key == 'FILL_YOUR_API_KEY_HERE':
             raise Exception('Please fill in the Gemini API key and secret in utils/gemini_key.py')
-        self.key = utils.gemini_key.key
+        self.key = utils.gemini_key.gemini_key
         genai.configure(api_key=self.key)
         self.text_model = 'gemini-1.5-pro-latest'
         self.model = genai.GenerativeModel(self.text_model)
