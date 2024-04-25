@@ -9,8 +9,13 @@ def main():
     #     email_content = json.laod(file)
     with open("../data/emails_extracted.json", 'r') as file:
         email_content = json.load(file)  
-    count = 0
-    for email in email_content:
+    count = 68
+    for i in range(count, 3000):
+        with open("../data/emails_extracted.json", 'r') as file:
+            email_content = json.load(file)  
+
+        email = email_content[i]
+        print(count)
         content = email['content_plain']
         prompt = f'Determine if the following email content contains misinformation. Answer in either True or False. True indicating that the email content contains misinformation. Limit your answer in one word. \n {content}'
         is_misinfo = gemini.generate(prompt).text
@@ -22,10 +27,19 @@ def main():
         theme = gemini.generate(prompt).text
         print(theme)
         email['theme'] = theme
+        time.sleep(20)
 
-        if count >2:
-            break
+        prompt = f'Identify the themes and narratives of following email content. Choose one keyword in this list: Voter Turnout, Economic Policy, Healthcare, Education, Climate Change, National Security, Immigration, Social Justice, Foreign Policy, Technology and Innovation, that is most related to the email content. reply keyword only \n {content}'
+        keyword = gemini.generate(prompt).text
+        print(keyword)
+        email['keyword'] = keyword
+        
+        # if count >2:
+        #     break
         count +=1
+
+        with open("../data/emails_extracted.json", 'w') as file:
+            json.dump(email_content, file, indent=4)
         
         time.sleep(20)
     
