@@ -1,3 +1,18 @@
+# Summary:
+# The `sentiAnalysis.py` file contains a class `SentimentAnalyzer` that utilizes the VADER sentiment analysis tool from the NLTK library.
+# This class is designed to evaluate the sentiment of a given text and classify it as positive, negative, or neutral.
+
+# Description:
+# - The `SentimentAnalyzer` class initializes an instance of `SentimentIntensityAnalyzer`.
+# - If the necessary VADER lexicon is not found during initialization, it is downloaded automatically.
+# - The `fit` method takes a string of text as input and computes sentiment scores using the VADER tool.
+# - The method evaluates the 'compound' score to categorize the overall sentiment:
+#   - Positive if the compound score is above 0.05.
+#   - Negative if the compound score is below -0.05.
+#   - Neutral if the compound score is between -0.05 and 0.05.
+# - The result includes both the raw scores (positive, negative, neutral, and compound) and the sentiment category.
+# - This setup ensures that the class can easily be utilized to assess sentiment in various contexts, potentially as part of a larger text processing or content analysis framework.
+
 import nltk
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 

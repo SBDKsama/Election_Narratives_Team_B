@@ -1,15 +1,52 @@
-# Election Narratives
+# Joan Donovan: Election Narratives-Team B
+Haotian Shangguan, Po-han Lu, Mao Mao, Hao Qi, Hui Zheng
 
-Hi！与主仓库[https://github.com/BU-Spark/ds-donovan-election-narratives](https://github.com/BU-Spark/ds-donovan-election-narratives)不同，这是我们存放CS506 Project进度的地方。
+## Overview
+This repository contains several codes to do the email analysis. There are currently six questions this project aims to accomplish:
 
-主仓库的提交逻辑是这样的：我们要在team-b的分支上branch、在增加改动后向team-b提交PR（并通知project manager，这才是主要的），在期末时还要向dev分支提交最终的版本。启用这样一个仓库的目的主要是减少各种命名不统一的分支，方便大家直接在main里干活，当然你想先branch再merge也没问题。我们要提交哪些东西还请Neo费心关注和更新。
+1. What themes or narratives is each political party pushing? Does this change by state? 
+2. What misinformation or conspiracy theories are different political parties pushing? 
+3. What is the sentiment of different campaigns (positive, negative, etc)? 
+4. What links are these campaigns sharing?
+5. What other people do these emails reference (Donald Trump, Joe Biden, Hilary Clinton, etc)?
+6. Do any of these questions change depending on how competitive the seat is?
 
-希望大家在开工之前先从上游拉取进度，在完成某项工作之后及时推送。你可以直接改动代码、也可以复制一份在确认无误后将其合并，backup文件夹存放的是一份能跑通的备份。 
+## Data Preprocess
 
-暂时想到的就这么多，希望大家每周能上来看看。有什么问题直接在群里说，stay connected！
+### Email Extraction
+By leveraging the Google API, we systematically extract emails and consolidate them into the [`emails_extracted.json`](./data/emails_extracted.json), categorically organized with key details like email address, sender's name, and plain text content. This structured JSON dataset lays the groundwork for subsequent stages, such as in-depth data analysis.
 
-### 要做的事
+### Data classification
+Once `emails_extracted.json` is in order, we can initiate the classification of senders by their political affiliations and the states they represent. We compile this information into two distinct files: [`All_Senders_Emails.json`](./data/All_senders_Emails.json) and [`Candidates_Emails.json`](./data/Candidate_Emails.json), which facilitate the analysis of each candidate's party and state affiliations. This is achieved by querying each sender's name against the database available at www.fec.gov/search, which provides comprehensive political data. Subsequently, we'll integrate this newly acquired information into `emails_extracted.json` to enrich our dataset. Next, we also did a deep analysis of all the links included in the emails. We collect all the hostnames in all the emails stored in [`hostname.json`](./data/hostname.json) for further data analysis. 
 
-对开发者而言，有用的链接只有这一个：[https://docs.google.com/document/d/1lw0630SvAsodaRIwujmK3HwMbSCcqt2pVmf2dESniLE/](https://docs.google.com/document/d/1lw0630SvAsodaRIwujmK3HwMbSCcqt2pVmf2dESniLE/)。 我们按要求实现即可，算法、presentation大于其他。
+# Data Analysis
+In 
 
-从团队的角度看，我们只需要更新Trello，请大家熟悉那堆便利贴的功能。
+# Getting Started
+
+
+
+# Resources/References
+1. Google-API: https://takeout.google.com/u/5/?hl=en&utm_source=ga-ob-search&utm_medium=takeout-card
+2. Gemini: https://ai.google.dev/tutorials/python_quickstart
+3. Federal Election Commission: https://www.fec.gov/search/
+4. Natural Language Toolkit: https://www.nltk.org/
+
+
+
+
+
+
+
+Please submit your final project submission PR (to your team branch) by Saturday evening (04/27) for the 1st round of review. The following should be done before submitting your PR:
+A brief description at the top of each code file explaining how the code contributes to your analysis
+Comments throughout your code where relevant
+A README that includes the following:
+A section explaining what base/extended questions you have answered and your results
+A section detailing your data cleaning methods with links to the files for data cleaning
+A section explaining your data analysis with links to the files for data analysis
+Links to datasets (Done)
+A section for resources/references (Done)
+A section explaining how to run your code/how to reproduce your results [I will be following this to make sure your code runs, so please ensure it is nicely explained :)]
+
+
