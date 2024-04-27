@@ -20,7 +20,9 @@ By leveraging the Google API, we systematically extract emails and consolidate t
 Once `emails_extracted.json` is in order, we can initiate the classification of senders by their political affiliations and the states they represent. We compile this information into two distinct files: [`All_Senders_Emails.json`](./data/All_senders_Emails.json) and [`Candidates_Emails.json`](./data/Candidate_Emails.json), which facilitate the analysis of each candidate's party and state affiliations. This is achieved by querying each sender's name against the database available at www.fec.gov/search, which provides comprehensive political data. Subsequently, we'll integrate this newly acquired information into `emails_extracted.json` to enrich our dataset. Next, we also did a deep analysis of all the links included in the emails. We collect all the hostnames in all the emails stored in [`hostname.json`](./data/hostname.json) for further data analysis. 
 
 # Data Analysis
-In 
+Within the [`code`](./code) directory, we have stored individual Python scripts and Jupyter Notebook files corresponding to the six questions previously outlined. Each file contains the solution to a specific question, and we will delve into a more detailed discussion of each file subsequently.
+
+### [`hostname.json`](./data/hostname.json)
 
 # Getting Started
 
