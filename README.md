@@ -17,7 +17,10 @@ This repository contains several codes to do the email analysis. There are curre
 By leveraging the Google API, we systematically extract emails and consolidate them into the [`emails_extracted.json`](./data/emails_extracted.json), categorically organized with key details like email address, sender's name, and plain text content. This structured JSON dataset lays the groundwork for subsequent stages, such as in-depth data analysis.
 
 ### Data classification
-Once `emails_extracted.json` is in order, we can initiate the classification of senders by their political affiliations and the states they represent. We compile this information into two distinct files: [`All_Senders_Emails.json`](./data/All_senders_Emails.json) and [`Candidates_Emails.json`](./data/Candidate_Emails.json), which facilitate the analysis of each candidate's party and state affiliations. This is achieved by querying each sender's name against the database available at www.fec.gov/search, which provides comprehensive political data. Subsequently, we'll integrate this newly acquired information into `emails_extracted.json` to enrich our dataset.
+Once `emails_extracted.json` is in order, we can initiate the classification of senders by their political affiliations and the states they represent. We compile this information into two distinct files: [`All_Senders_Emails.json`](./data/All_senders_Emails.json) and [`Candidates_Emails.json`](./data/Candidate_Emails.json), which facilitate the analysis of each candidate's party and state affiliations. This is achieved by querying each sender's name against the database available at www.fec.gov/search, which provides comprehensive political data. Subsequently, we'll integrate this newly acquired information into `emails_extracted.json` to enrich our dataset. Next, we also did a deep analysis of all the links included in the emails. We collect all the hostnames in all the emails stored in [`hostname.json`](./data/hostname.json) for further data analysis. 
+
+# Data Analysis
+In 
 
 # Getting Started
 
