@@ -14,7 +14,10 @@ This repository contains several codes to do the email analysis. There are curre
 ## Data Preprocess
 
 ### Email Extraction
-We use Google API to retrieve all the emails and store them in [`emails_extracted.json`](./data/email_extracted.json) into different categories such as email address, name, content_plain, etc. 
+By leveraging the Google API, we systematically extract emails and consolidate them into the [`emails_extracted.json`](./data/emails_extracted.json), categorically organized with key details like email address, sender's name, and plain text content. This structured JSON dataset lays the groundwork for subsequent stages, such as in-depth data analysis.
+
+### Data classification
+Once `emails_extracted.json` is in order, we can initiate the classification of senders by their political affiliations and the states they represent. We compile this information into two distinct files: [`All_Senders_Emails.json`](./data/All_senders_Emails.json) and [`Candidates_Emails.json`](./data/Candidate_Emails.json), which facilitate the analysis of each candidate's party and state affiliations. This is achieved by querying each sender's name against the database available at www.fec.gov/search, which provides comprehensive political data. Subsequently, we'll integrate this newly acquired information into `emails_extracted.json` to enrich our dataset.
 
 # Getting Started
 
@@ -39,8 +42,8 @@ A README that includes the following:
 A section explaining what base/extended questions you have answered and your results
 A section detailing your data cleaning methods with links to the files for data cleaning
 A section explaining your data analysis with links to the files for data analysis
-Links to datasets
-A section for resources/references
+Links to datasets (Done)
+A section for resources/references (Done)
 A section explaining how to run your code/how to reproduce your results [I will be following this to make sure your code runs, so please ensure it is nicely explained :)]
 
 
