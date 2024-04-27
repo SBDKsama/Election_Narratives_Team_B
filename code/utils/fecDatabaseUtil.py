@@ -1,3 +1,15 @@
+# Summary:
+# The `fecDatabaseUtil.py` script contains a function `queryFec` that fetches party and state information for a given candidate from the FEC (Federal Election Commission) website.
+
+# Description:
+# - The function `queryFec` accepts a candidate's name as input and performs an HTTP GET request to the FEC's search page to retrieve data about the candidate.
+# - It uses the BeautifulSoup library to parse the HTML response from the FEC website.
+# - The script looks for HTML elements that match certain criteria (e.g., `<li>` tags with class `post`) to extract relevant information about the candidate.
+# - Specific details such as the candidate's state and party are extracted from the HTML and returned.
+# - If no relevant information is found, default values of 'unknown' are assigned for both state and party.
+# - This function is essential for enhancing candidate data by providing additional contextual information about their political affiliations and geographic representation.
+# - Error handling or specific validations are not detailed in the excerpt but would be critical to ensure robustness and reliability of data scraping in a real-world application.
+
 import requests
 import requests
 from bs4 import BeautifulSoup

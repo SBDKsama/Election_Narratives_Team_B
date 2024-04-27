@@ -1,3 +1,14 @@
+# Summary:
+# The `emailUtil.py` script provides utility functions for handling email data, including parsing email addresses and names from email strings, and manipulating JSON data related to emails.
+
+# Description:
+# - The function `load_from_JSON_file` reads and returns data from a JSON file, which is useful for handling data persistence or configuration settings.
+# - `getEmailAddress` extracts the email address from a string that may contain additional formatting or text around the email address, using regular expressions to find patterns that match typical email formats.
+# - `getNameAddressPair` extracts both the name and the email address from a string, cleaning up the name by removing excess characters and normalizing its format.
+# - `getFirstMiddleLast` splits a full name into its constituent parts (first, middle, last), which is useful for data processing or when interfacing with systems that require these components separately.
+# - `updateAllSenderEmailsJson` is a function that presumably updates or processes a list of email data stored in JSON format, reflecting changes or additions to the data set.
+# - This script facilitates efficient handling and processing of email-related data, useful in applications where email data extraction and manipulation are required.
+
 import json
 import re
 

@@ -1,3 +1,17 @@
+# Summary:
+# The `Scrapper.py` module defines a `Scrapper` class that facilitates web scraping from specified URLs.
+# It supports concurrent scraping using threads and handles both single and multiple URLs.
+
+# Description:
+# - The `Scrapper` class initializes with a URL or a list of URLs, storing them in a set to avoid duplicates.
+# - The main functionality includes retrieving HTML content from each URL using the `requests` library.
+# - Error handling is robust, checking for successful HTTP responses and filtering out non-HTML content.
+# - Results are stored in a dictionary `result_map` with details about each URL's request status, content, and any errors.
+# - The class includes a method `get_one_content` that performs the actual fetching and parsing of HTML content for a single URL,
+#   and updates the `result_map` accordingly.
+# - Although not fully shown in the excerpt, the class likely uses threading to manage concurrent requests and may use `tqdm`
+#   for progress tracking during scraping.
+
 import threading
 
 import requests
