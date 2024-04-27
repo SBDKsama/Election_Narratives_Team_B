@@ -22,7 +22,12 @@ Once `emails_extracted.json` is in order, we can initiate the classification of 
 # Data Analysis
 Within the [`code`](./code) directory, we have stored individual Python scripts and Jupyter Notebook files corresponding to the six questions previously outlined. Each file contains the solution to a specific question, and we will delve into a more detailed discussion of each file subsequently.
 
-### [`hostname.json`](./data/hostname.json)
+#### [`main_code.ipynb`](./code/main_code.ipynb)
+This is a Jupyter Notebook file, and it contains most of the answers to those questions. The first cell is used to retrieve all the emails and store them in the `emails_extracted.json`, and the second cell is used to merge `emails_extracted.json` and `Candidates_Emails.json`. Next, we have covered three question in the rest of cells which are 
+
+#### [`analyze_sentiment.ipynb`](./code/analyze_sentiment.ipynb)
+
+#### [``](./data/hostname.json)
 
 # Getting Started
 
