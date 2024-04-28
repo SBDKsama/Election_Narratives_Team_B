@@ -149,7 +149,7 @@ def updateCandidatesEmailsJson():
     # add party and state info to the candidate json
     addStateAndPartyInfoToCandidateJson()
 
-# updateAllSenderEmailsJson()
+updateAllSenderEmailsJson()
 
 updateCandidatesEmailsJson()
 
