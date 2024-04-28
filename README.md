@@ -46,8 +46,9 @@ Further elucidation and visualization of the results may be available in the [`d
 Lastly, this file is related to the last question, which tries to find out how the sentiments of emails are changed or not in different time periods. Further elucidation and visualization of the results may be available in the [`deliverables`](./deliverables/) folder and [`main_code.ipynb`](./code/main_code.ipynb). 
 
 # Getting Started
-
-
+This section is guideline for how to run this project step by step: 
+1. download all the requirement packages listed in [`requirements.txt`](./code/requirements.txt)
+2. Next, run [`api_call.py`](./code/api_call.py) to get the authenticator for Google API. 
 
 # Resources/References
 1. Google-API: https://takeout.google.com/u/5/?hl=en&utm_source=ga-ob-search&utm_medium=takeout-card
