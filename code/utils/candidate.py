@@ -2,7 +2,7 @@
 # The `candidate.py` script is designed to update a JSON file containing candidate information with additional details fetched from an FEC database.
 
 # Description:
-# - The script includes a function `updateCandidateJson` that reads from a JSON file (`data/emails_extracted.json`), which presumably contains details about various candidates.
+# - The script includes a function `addStateAndPartyInfoToCandidateJson` that reads from a JSON file (`data/emails_extracted.json`), which presumably contains details about various candidates.
 # - It uses a function `queryFec` imported from `fecDatabaseUtil` to fetch additional data for each candidate, specifically the state and party affiliation based on the candidate's name.
 # - This additional information is added to each candidate's entry in the dictionary extracted from the JSON file.
 # - After updating the dictionary with new data, the script writes the updated content back to the JSON file, ensuring the original data structure is maintained but enhanced with new details.
@@ -12,8 +12,8 @@
 from fecDatabaseUtil import queryFec
 import json
 
-def updateCandidateJson():
-    candidates_and_emails = 'data/emails_extracted.json'
+def addStateAndPartyInfoToCandidateJson():
+    candidates_and_emails = 'data/Candidates_Emails.json'
     with open(candidates_and_emails, 'r', encoding='utf-8') as email_book:
         candidate_email_dict = json.load(email_book)
 
@@ -27,4 +27,4 @@ def updateCandidateJson():
         # Dump the updated dictionary back into the JSON file
         json.dump(candidate_email_dict, email_book, ensure_ascii=False, indent=4)
 
-updateCandidateJson()
+# addStateAndPartyInfoToCandidateJson()

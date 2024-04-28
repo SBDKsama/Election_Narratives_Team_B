@@ -12,6 +12,8 @@
 import json
 import re
 
+from candidate import addStateAndPartyInfoToCandidateJson
+
 def load_from_JSON_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         data = json.load(file)
@@ -114,4 +116,42 @@ def updateAllSenderEmailsJson():
     with open('data/All_Senders_Emails.json', 'w') as file:
         json.dump(all_senders, file, indent=4)
 
-updateAllSenderEmailsJson()
+
+def updateCandidatesEmailsJson():
+    non_candidate_list = ['Secure', 'Google', 'Wordpress', 'Brady PAC', 'Campaign', 'Wix']
+    all_senders = load_from_JSON_file('data/All_Senders_Emails.json')
+    candidates = load_from_JSON_file('data/Candidates_Emails.json')
+
+    # Create a set of existing first and last names from all_senders
+    existing_names = set()
+    for candidate in candidates:
+        existing_names.add((candidate['First'], candidate['Last']))
+
+    # Check if each candidate's first and last name is in the existing_names set
+    missing_candidates = []
+    for sender in all_senders:
+        if (sender['First'], sender['Last']) not in existing_names and sender['First'] not in non_candidate_list:
+            missing_candidates.append(sender)
+
+    # Add the missing candidates to all_senders
+    candidates.extend(missing_candidates)
+
+    # Print out the new added entries
+    if len(missing_candidates) > 0:
+        print("Newly added entries:")
+        for candidate in missing_candidates:
+            print(candidate)
+
+    # Save the updated all_senders to data/All_Senders_Emails.json
+    with open('data/Candidates_Emails.json', 'w') as file:
+        json.dump(candidates, file, indent=4)
+    
+    # add party and state info to the candidate json
+    addStateAndPartyInfoToCandidateJson()
+
+# updateAllSenderEmailsJson()
+
+updateCandidatesEmailsJson()
+
+
+

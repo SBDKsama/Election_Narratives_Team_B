@@ -474,5 +474,135 @@
         ],
         "state": "UT",
         "party": "REPUBLICAN"
+    },
+    {
+        "First": "Jenga",
+        "Middle": "",
+        "Last": "Smitch",
+        "Emails": [
+            "jengabuiling90@gmail.com"
+        ],
+        "state": "NC",
+        "party": "DEMOCRATIC"
+    },
+    {
+        "First": "Caroline",
+        "Middle": "",
+        "Last": "Gleich",
+        "Emails": [
+            "info@carolineforutah.com"
+        ],
+        "state": "UT",
+        "party": "DEMOCRATIC"
+    },
+    {
+        "First": "Glenn",
+        "Middle": "",
+        "Last": "Elliott",
+        "Emails": [
+            "info@elliottforwv.com"
+        ],
+        "state": "WV",
+        "party": "DEMOCRATIC"
+    },
+    {
+        "First": "John",
+        "Middle": "",
+        "Last": "Curtis",
+        "Emails": [
+            "johncurtis@johncurtis.org"
+        ],
+        "state": "UT",
+        "party": "REPUBLICAN"
+    },
+    {
+        "First": "Reid",
+        "Middle": "",
+        "Last": "Rasner",
+        "Emails": [
+            "info@rasner4wy.com"
+        ],
+        "state": "WY",
+        "party": "REPUBLICAN"
+    },
+    {
+        "First": "Sam",
+        "Middle": "",
+        "Last": "Brown",
+        "Emails": [
+            "info@captainsambrown.com"
+        ],
+        "state": "NV",
+        "party": "REPUBLICAN"
+    },
+    {
+        "First": "Gwen",
+        "Middle": "",
+        "Last": "Hickman",
+        "Emails": [
+            "gwen@hickmanforsenate.com"
+        ],
+        "state": "VA",
+        "party": "REPUBLICAN"
+    },
+    {
+        "First": "Patricia",
+        "Middle": "",
+        "Last": "Morgan",
+        "Emails": [
+            "info@patriciamorgan.com"
+        ],
+        "state": "RI",
+        "party": "REPUBLICAN"
+    },
+    {
+        "First": "Chuck",
+        "Middle": "",
+        "Last": "Smith",
+        "Emails": [
+            "chucksmith@chucksmithva.com"
+        ],
+        "state": "VA",
+        "party": "REPUBLICAN"
+    },
+    {
+        "First": "Bernie",
+        "Middle": "",
+        "Last": "Moreno",
+        "Emails": [
+            "Colton@berniemoreno.com"
+        ],
+        "state": "OH",
+        "party": "REPUBLICAN"
+    },
+    {
+        "First": "Dan",
+        "Middle": "",
+        "Last": "Eubanks",
+        "Emails": [
+            "deubanks@substack.com"
+        ],
+        "state": "MS",
+        "party": "REPUBLICAN"
+    },
+    {
+        "First": "Brad",
+        "Middle": "",
+        "Last": "Wilson",
+        "Emails": [
+            "info@vote.electbradwilson.com"
+        ],
+        "state": "UT",
+        "party": "REPUBLICAN"
+    },
+    {
+        "First": "December",
+        "Middle": "",
+        "Last": "Harmon",
+        "Emails": [
+            "info@december2024.com"
+        ],
+        "state": "MO",
+        "party": "DEMOCRATIC"
     }
 ]
