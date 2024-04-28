@@ -32,13 +32,18 @@ This is a Jupyter Notebook file, and it contains most of the answers to those qu
 Then, we also included all the visualization code in this file, and you can find them either in the [`result`](./result/) folder or in the rest of the code cells in `main_code.ipynb`. 
 
 #### [`analyze_sentiment.ipynb`](./code/analyze_sentiment.ipynb)
-
+This particular file is dedicated to conducting sentiment analysis for the project. It utilizes the Natural Language Toolkit (nltk) library, employing a Lexicon-based Approach where words are pre-classified as positive or negative. The contents of emails_extracted.json are analyzed to categorize each email's sentiment as positive, negative, or neutral. For additional insights and visual representations, refer to the [`deliverables`](./deliverables/) folder and [`main_code.ipynb`](./code/main_code.ipynb). 
 
 #### [`gemeni.py`](./code/gemini.py)
+This file is integral to the project's objective of uncovering political narratives and misinformation. It engages the custom classes `Scrapper` and `Gemini` from the `utils` module, indicating a tailored approach for scraping and processing data. The script parses `emails_extracted.json` to discern prevalent themes and potential misinformation circulated by different political parties, possibly by detecting specific keywords or patterns. This file also includes how we solve these two questions: 
 
+1. What themes or narratives is each political party pushing? Does this change by state?
+2. What misinformation or conspiracy theories are different political parties pushing? 
+
+Further elucidation and visualization of the results may be available in the [`deliverables`](./deliverables/) folder and [`main_code.ipynb`](./code/main_code.ipynb). 
 
 #### [`check_trend.ipynb`](./code/check_trend.ipynb)
-
+Lastly, this file is related to the last question, which tries to find out how the sentiments of emails are changed or not in different time periods. Further elucidation and visualization of the results may be available in the [`deliverables`](./deliverables/) folder and [`main_code.ipynb`](./code/main_code.ipynb). 
 
 # Getting Started
 
