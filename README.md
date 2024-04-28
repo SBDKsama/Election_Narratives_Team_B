@@ -23,11 +23,22 @@ Once `emails_extracted.json` is in order, we can initiate the classification of 
 Within the [`code`](./code) directory, we have stored individual Python scripts and Jupyter Notebook files corresponding to the six questions previously outlined. Each file contains the solution to a specific question, and we will delve into a more detailed discussion of each file subsequently.
 
 #### [`main_code.ipynb`](./code/main_code.ipynb)
-This is a Jupyter Notebook file, and it contains most of the answers to those questions. The first cell is used to retrieve all the emails and store them in the `emails_extracted.json`, and the second cell is used to merge `emails_extracted.json` and `Candidates_Emails.json`. Next, we have covered three question in the rest of cells which are 
+This is a Jupyter Notebook file, and it contains most of the answers to those questions. The first cell is used to retrieve all the emails and store them in the `emails_extracted.json`, and the second cell is used to merge `emails_extracted.json` and `Candidates_Emails.json`. Next, we have covered three questions in the rest of the cells, which are: 
+
+1. what links these campaigns are sharing
+2. what other people do these emails reference
+3. what is the sentiment of different campaigns
+
+Then, we also included all the visualization code in this file, and you can find them either in the [`result`](./result/) folder or in the rest of the code cells in `main_code.ipynb`. 
 
 #### [`analyze_sentiment.ipynb`](./code/analyze_sentiment.ipynb)
 
-#### [``](./data/hostname.json)
+
+#### [`gemeni.py`](./code/gemini.py)
+
+
+#### [`check_trend.ipynb`](./code/check_trend.ipynb)
+
 
 # Getting Started
 
@@ -38,22 +49,3 @@ This is a Jupyter Notebook file, and it contains most of the answers to those qu
 2. Gemini: https://ai.google.dev/tutorials/python_quickstart
 3. Federal Election Commission: https://www.fec.gov/search/
 4. Natural Language Toolkit: https://www.nltk.org/
-
-
-
-
-
-
-
-Please submit your final project submission PR (to your team branch) by Saturday evening (04/27) for the 1st round of review. The following should be done before submitting your PR:
-A brief description at the top of each code file explaining how the code contributes to your analysis
-Comments throughout your code where relevant
-A README that includes the following:
-A section explaining what base/extended questions you have answered and your results
-A section detailing your data cleaning methods with links to the files for data cleaning
-A section explaining your data analysis with links to the files for data analysis
-Links to datasets (Done)
-A section for resources/references (Done)
-A section explaining how to run your code/how to reproduce your results [I will be following this to make sure your code runs, so please ensure it is nicely explained :)]
-
-
